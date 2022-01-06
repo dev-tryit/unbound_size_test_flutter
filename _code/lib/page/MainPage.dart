@@ -10,7 +10,9 @@ class MainPage extends StatelessWidget {
       body: Column(
         children: [
           Column(
-            children: [],
+            children: [
+              TextField(),
+            ],
           )
         ],
       ),
