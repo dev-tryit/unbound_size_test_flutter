@@ -7,7 +7,13 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("MainPage")),
-      body: Text("MainPage"),
+      body: Column(
+        children: [
+          Column(
+            children: [],
+          )
+        ],
+      ),
     );
   }
 }
